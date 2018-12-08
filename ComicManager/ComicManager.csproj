@@ -5,7 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <Content Remove="wwwroot\css\.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\script\app.js" />
+    <None Include="wwwroot\script\vendor\foundation.js" />
+    <None Include="wwwroot\script\vendor\foundation.min.js" />
+    <None Include="wwwroot\script\vendor\jquery.js" />
+    <None Include="wwwroot\script\vendor\what-input.js" />
   </ItemGroup>
 
   <ItemGroup>
