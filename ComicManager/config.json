@@ -1,6 +1,5 @@
 {
-	"ConnectionStrings": {
-    "ComicManagerConnectionString":
-      "server=(localdb)\\ProjectsV13;Database=ComicManagerDb;Integrated Security=true;MultipleActiveResultSets=true;"
+  "ConnectionStrings": {
+    "ComicManagerConnectionString": "Data Source=(localdb)\\ProjectsV13;Database=ComicManagerDb;Integrated Security=true;MultipleActiveResultSets=true;"
   }
 }
