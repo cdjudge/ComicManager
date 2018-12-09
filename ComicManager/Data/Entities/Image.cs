@@ -2,6 +2,7 @@
 {
     public class Image
     {
+        public int id { get; set; }
         public string icon_url { get; set; }
         public string medium_url { get; set; }
         public string screen_url { get; set; }

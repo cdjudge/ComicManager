@@ -1,0 +1,6 @@
+{
+	"ConnectionStrings": {
+    "ComicManagerConnectionString":
+      "server=(localdb)\\ProjectsV13;Database=ComicManagerDb;Integrated Security=true;MultipleActiveResultSets=true;"
+  }
+}
