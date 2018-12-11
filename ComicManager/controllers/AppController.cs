@@ -1,13 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ComicManager.Data;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ComicManager.controllers
 {
-    public class AppController
+    public class AppController: Controller
     {
-        
+        private readonly IComicRepository _comicRepository;
+
+        public AppController(IComicRepository repository)
+        {
+            _comicRepository = repository;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
     }
 }

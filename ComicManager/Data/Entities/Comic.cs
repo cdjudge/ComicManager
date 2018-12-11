@@ -1,4 +1,6 @@
-﻿namespace ComicManager.Data.Entities
+﻿using System;
+
+namespace ComicManager.Data.Entities
 {
     public class Comic
     {
@@ -11,7 +13,7 @@
         public string date_last_updated { get; set; }
         public string description { get; set; }
         public string date_aquired { get; set; }
-        public string price_paid { get; set; }
+        public decimal price_paid { get; set; }
         public string thumb_nail_url { get; set; }
 
     }

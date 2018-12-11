@@ -49,8 +49,8 @@ namespace ComicManager.Migrations
                     b.ToTable("Comics");
 
                     b.HasData(
-                        new { id = 1, date_aquired = "12/9/2018 7:07 PM", issue_number = "1", name = "Sample Comic", thumb_nail_url = "xxx", volume_name = "Sample Volume" },
-                        new { id = 2, date_aquired = "12/9/2018 7:07 PM", issue_number = "2", name = "Sample Comic", thumb_nail_url = "xxx", volume_name = "Sample Volume" }
+                        new { id = 1, date_aquired = "12/10/2018 10:16 PM", issue_number = "1", name = "Sample Comic", thumb_nail_url = "xxx", volume_name = "Sample Volume" },
+                        new { id = 2, date_aquired = "12/10/2018 10:16 PM", issue_number = "2", name = "Sample Comic", thumb_nail_url = "xxx", volume_name = "Sample Volume" }
                     );
                 });
 #pragma warning restore 612, 618

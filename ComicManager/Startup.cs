@@ -21,8 +21,8 @@ namespace ComicManager
             {
                 cfg.UseSqlServer(_config.GetConnectionString("ComicManagerConnectionString"));
             });
-
-            services.AddTransient<ComicManagerSeeder>();
+            services.AddScoped<IComicRepository, ComicRepository>();
+            services.AddMvc();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
